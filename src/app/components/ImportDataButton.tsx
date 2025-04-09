@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { importDataFromCSV } from '../actions/import-data';
+import { importDataFromCSV } from '@/app/grid/actions/import-data';
 
 export default function ImportDataButton() {
   const [isLoading, setIsLoading] = useState(false);

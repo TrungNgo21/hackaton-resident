@@ -16,6 +16,7 @@ import postgres from 'postgres';
 import 'server-only';
 
 import type { ArtifactKind } from '@/components/artifact';
+import { getLocationFromDistrict } from '@/utils/get-district-coordinates';
 import {
   chat,
   document,
@@ -394,7 +395,7 @@ export async function findMatchedProperties({
 }) {
   try {
     // First get the target location's coordinates
-    const targetLocation = await getDistrictCoordinates(district);
+    const targetLocation = await getLocationFromDistrict(district);
 
     // Haversine formula for distance calculation in kilometers
     const distanceFormula = sql`

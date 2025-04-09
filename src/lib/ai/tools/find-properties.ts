@@ -1,3 +1,4 @@
+import { getProperties } from '@/app/grid/actions/get-properties';
 import { tool } from 'ai';
 import { z } from 'zod';
 
@@ -25,9 +26,6 @@ export const findProperties = tool({
     maximum_electricity_rate,
     maximum_wifi_rate,
   }) => {
-    const response = await fetch(
-      `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m&hourly=temperature_2m&daily=sunrise,sunset&timezone=auto`
-    );
-    return await response.json();
+    return await getProperties({district, maximum_distance, wifi_payment, maximum_electricity_rate, maximum_wifi_rate});
   },
 });

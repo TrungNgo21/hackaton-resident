@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: API and data fetching guide
+globs: **/*.tsx, **/*.ts, src/**/*.ts, src/**/*.tsx
+---
+
+# Best practice
+- Breakdown the user requirement  
+- Refers to drizzle schema first [schema.ts](mdc:src/db/schema.ts)
+- Think carefully if it is mandantory to modify the schema
+- Write the query to the path src/db/queries
+- Export the query to [index.ts](mdc:src/db/queries/index.ts) if neccessary
+- Write a NextJS route at src/app/api/ for the requirement
+
