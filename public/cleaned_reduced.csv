@@ -1,0 +1,67 @@
+district,place,img,electricity_cleaned,wifi_cleaned,water_unit_cleaned,water_price_per_unit_cleaned
+Quận 1,Cách Mạng Tháng TámStudio,https://cdn.bitrix24.com/b17992159/landing/011/011db372a04092baef21ba44f17594d5/z2657506926349_e68b27c33a52d1c8b34aa78bcb803bae_1x.jpg,4000,0,m3,0
+Quận 1,Nguyễn Văn ThủStudio,https://cdn.bitrix24.com/b17992159/landing/1ec/1ec2bab0277a6311448317e83e1f9ef7/z2657500814462_53696e7e539534c17f5954c347468c1d_1x.jpg,4000,0,m3,0
+Quận 7,Kola ApartmentDuplex,https://cdn.bitrix24.com/b17992159/landing/cf6/cf6a243408684cf4fd6a904672022df9/z2657546843420_fda97905c06a777022e2339f95df8313_1x.jpg,3800,0,m3,18000
+Quận 7,Dân cư Nam LongStudio,https://cdn.bitrix24.com/b17992159/landing/543/5436fc592f41a41ff6a3a8acc27cfbee/z2657551380593_1f3be7c71756d55c647202657c74ebd7_1x.jpg,3700,200000,p,100000
+Quận 7,Cầu Tân ThuậnDuplex,https://cdn.bitrix24.com/b17992159/landing/9ea/9ea89477ec70291286ede546392c8819/z2657553682904_bc74d2b86c390b78e527ff832a0403b4_1x.jpg,3700,150000,p,100000
+Quận 1,Nguyễn Đình Chiểu1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/6c9/6c94a98e771d953be5392cc4064abd77/z2657492113245_2efea66ace195353f58f57299227d3d8_1x.jpg,4000,300000,p,100000
+Bình Thạnh,Nguyễn Cửu VânStudio,https://cdn.bitrix24.com/b17992159/landing/69a/69a813d59e9222752cf770d47670b9da/z2657533613994_8f1a8837a13cc4429fb7b3a87f22efbd_1x.jpg,4000,0,m3,0
+Phú Nhuận,Trần Khắc ChânStudio,https://cdn.bitrix24.com/b17992159/landing/11f/11f6f14cc5d0f2f7b6b2685bdf2488e1/z2657531133536_3040ed71ef1d98bb3fa543f6c212d6b0_1x.jpg,4000,0,p,150000
+Bình Thạnh,Nguyễn Gia TríDuplex,https://cdn.bitrix24.com/b17992159/landing/73f/73f5e7fb2a76cbc0262dd1a752fabb9c/z2657527393347_6f673b26b0d0d7f7943bd501f62429f3_1x.jpg,4000,0,p,100
+Quận 4,Bến Vân ĐồnDuplex,https://cdn.bitrix24.com/b17992159/landing/55b/55b1c2eab9b2db87820c1e435a371de1/z2657523022893_6a9521c6f11b1abc5ce71e062407acca_1x.jpg,4000,0,p,100000
+Quận 3,Võ Văn Tần1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/92b/92bf3400d7dea6b48e59f2489bd6465b/z2657515163562_fd70e0eb3c8432d9512dc23c74eb55d5_1x.jpg,4000,0,p,100000
+Quận 3,Cao ThắngStudio,https://cdn.bitrix24.com/b17992159/landing/a02/a0252ea9fd0af75bfb4f95237fb3751c/z2657519559352_2fde29dea09ba27bbb50741963048580_1x.jpg,4000,0,m3,0
+Quận 2,Nguyễn Tư NghiêmStudio,https://cdn.bitrix24.com/b17992159/landing/d44/d442d30caad2b0a80070bff2bb9bf3c3/z2657511141741_6e220ad319d80744ae5a446dbd9fe15a_1x.jpg,3800,150000,m3,100
+Quận 1,Cách Mạng Tháng TámStudio,https://cdn.bitrix24.com/b17992159/landing/011/011db372a04092baef21ba44f17594d5/z2657506926349_e68b27c33a52d1c8b34aa78bcb803bae_1x.jpg,4000,0,m3,0
+Quận 1,Nguyễn Văn ThủStudio,https://cdn.bitrix24.com/b17992159/landing/1ec/1ec2bab0277a6311448317e83e1f9ef7/z2657500814462_53696e7e539534c17f5954c347468c1d_1x.jpg,4000,0,m3,0
+Quận 7,Kola ApartmentDuplex,https://cdn.bitrix24.com/b17992159/landing/cf6/cf6a243408684cf4fd6a904672022df9/z2657546843420_fda97905c06a777022e2339f95df8313_1x.jpg,3800,0,m3,18000
+Quận 7,Dân cư Nam LongStudio,https://cdn.bitrix24.com/b17992159/landing/543/5436fc592f41a41ff6a3a8acc27cfbee/z2657551380593_1f3be7c71756d55c647202657c74ebd7_1x.jpg,3700,200000,p,100000
+Quận 7,Cầu Tân ThuậnDuplex,https://cdn.bitrix24.com/b17992159/landing/9ea/9ea89477ec70291286ede546392c8819/z2657553682904_bc74d2b86c390b78e527ff832a0403b4_1x.jpg,3700,150000,p,100000
+Quận 1,Nguyễn Đình Chiểu1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/6c9/6c94a98e771d953be5392cc4064abd77/z2657492113245_2efea66ace195353f58f57299227d3d8_1x.jpg,4000,300000,p,100000
+Bình Thạnh,Nguyễn Cửu VânStudio,https://cdn.bitrix24.com/b17992159/landing/69a/69a813d59e9222752cf770d47670b9da/z2657533613994_8f1a8837a13cc4429fb7b3a87f22efbd_1x.jpg,4000,0,m3,0
+Phú Nhuận,Trần Khắc ChânStudio,https://cdn.bitrix24.com/b17992159/landing/11f/11f6f14cc5d0f2f7b6b2685bdf2488e1/z2657531133536_3040ed71ef1d98bb3fa543f6c212d6b0_1x.jpg,4000,0,p,150000
+Bình Thạnh,Nguyễn Gia TríDuplex,https://cdn.bitrix24.com/b17992159/landing/73f/73f5e7fb2a76cbc0262dd1a752fabb9c/z2657527393347_6f673b26b0d0d7f7943bd501f62429f3_1x.jpg,4000,0,p,100000
+Quận 4,Bến Vân ĐồnDuplex,https://cdn.bitrix24.com/b17992159/landing/55b/55b1c2eab9b2db87820c1e435a371de1/z2657523022893_6a9521c6f11b1abc5ce71e062407acca_1x.jpg,4000,0,p,100000
+Quận 3,Võ Văn Tần1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/92b/92bf3400d7dea6b48e59f2489bd6465b/z2657515163562_fd70e0eb3c8432d9512dc23c74eb55d5_1x.jpg,4000,0,p,100000
+Quận 3,Cao ThắngStudio,https://cdn.bitrix24.com/b17992159/landing/a02/a0252ea9fd0af75bfb4f95237fb3751c/z2657519559352_2fde29dea09ba27bbb50741963048580_1x.jpg,4000,0,m3,0
+Quận 2,Nguyễn Tư NghiêmStudio,https://cdn.bitrix24.com/b17992159/landing/d44/d442d30caad2b0a80070bff2bb9bf3c3/z2657511141741_6e220ad319d80744ae5a446dbd9fe15a_1x.jpg,3800,150000,p,100
+Quận 1,Cách Mạng Tháng TámStudio,https://cdn.bitrix24.com/b17992159/landing/011/011db372a04092baef21ba44f17594d5/z2657506926349_e68b27c33a52d1c8b34aa78bcb803bae_1x.jpg,4000,0,m3,0
+Quận 1,Nguyễn Văn ThủStudio,https://cdn.bitrix24.com/b17992159/landing/1ec/1ec2bab0277a6311448317e83e1f9ef7/z2657500814462_53696e7e539534c17f5954c347468c1d_1x.jpg,4000,0,m3,0
+Quận 7,Kola ApartmentDuplex,https://cdn.bitrix24.com/b17992159/landing/cf6/cf6a243408684cf4fd6a904672022df9/z2657546843420_fda97905c06a777022e2339f95df8313_1x.jpg,3800,0,m3,18000
+Quận 7,Dân cư Nam LongStudio,https://cdn.bitrix24.com/b17992159/landing/543/5436fc592f41a41ff6a3a8acc27cfbee/z2657551380593_1f3be7c71756d55c647202657c74ebd7_1x.jpg,3700,200000,p,100000
+Quận 7,Cầu Tân ThuậnDuplex,https://cdn.bitrix24.com/b17992159/landing/9ea/9ea89477ec70291286ede546392c8819/z2657553682904_bc74d2b86c390b78e527ff832a0403b4_1x.jpg,3700,150000,p,100000
+Quận 1,Trần Đình Xu1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/9e6/9e61d248e087acbf523f2f8d58805855/z2657496018644_1d4859955471af061733eb74c47a77a2_1x.jpg,4000,0,m3,0
+Quận 7,SonataDuplex,https://cdn.bitrix24.com/b17992159/landing/258/25871c8149ad363aedc1bd292e962fb7/z2657550365164_114168108ad216a0365be1961be50351_1x.jpg,4000,0,m3,0
+Quận 7,Phạm Thái BườngStudio,https://cdn.bitrix24.com/b17992159/landing/335/335796d1cadd674e51ee1d8bf89e2ea3/z2657553150555_7f2f94b450321e6652aaa7e1454edcfa_1x.jpg,3700,200000,p,100
+Quận 7,Tân Thuận Tây1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/4f7/4f74eff8f2cc7651ab9a7c8319cf0757/z2657558063019_8619e651fa3ef10390622f4508842b99_1x.jpg,3700,150000,p,100000
+Quận 7,Khu Dân cư Nam LongStudio,https://cdn.bitrix24.com/b17992159/landing/5c6/5c6a85751bf6f7b00a6d4b0576286614/z2657563405082_5db80512ad3f3a963618c18b0f02d9ea_1x.jpg,3800,150000,p,100000
+Phú Nhuận,Trần Khắc ChânStudio,https://cdn.bitrix24.com/b17992159/landing/e66/e66335c1d3745a5ae9c022ebfb4839fd/z2657530246757_a1d857d78201145f79bffbb9d92ce255_1x.jpg,4000,0,p,150000
+Bình Thạnh,Nguyễn Cửu Vân1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/204/20443f0cadab5d2e282e23939b5287b9/z2657528880952_774f1167f1c5ce34e0bf70fe4461d24a_1x.jpg,4000,0,p,100000
+Bình Thạnh,Xô Viết Nghệ TĩnhDuplex,https://cdn.bitrix24.com/b17992159/landing/af3/af3e10ecb65ae52ffbe273326e79467f/z2657526194578_b29a864cde1b74584a109815f316a8b9_1x.jpg,4000,150000,p,100000
+Bình Thạnh,Ngô Tất TốStudio,https://cdn.bitrix24.com/b17992159/landing/7db/7dbf77290409600fb625da704c531010/z2657524764198_6c0ba4a9b30296eb0d765fa54025aa6d_1x.jpg,3800,150000,p,100000
+Quận 4,Đoàn Như HàiDuplex,https://cdn.bitrix24.com/b17992159/landing/62f/62ff0b50cd54ef9f69b254a94d4bc58f/z2657521350207_e8b0c454b93cacd7634a1116426bc0b0_1x.jpg,4000,0,p,100000
+Quận 3,Nam Kì Khởi Nghĩa1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/3bd/3bdc10ab8e7464483aec252ee7e3e526/z2657517002348_51d9fdbbb4c45b9b9cee7bccfed6bbe7_1x.jpg,4000,0,m3,0
+Quận 2,Nguyễn Tư NghiêmStudio,https://cdn.bitrix24.com/b17992159/landing/faf/faf4edb9e1b612e34fd739f04df841b1/z2657512990825_dda5031289d8542ba71f91dfd074ac39_1x.jpg,4000,150000,m3,15000
+Quận 2,Thảo ĐiềnStudio,https://cdn.bitrix24.com/b17992159/landing/f35/f35ea6076cb4121bfdf7d603d39f0911/z2657508833788_400db00f1b75220109e1a86f93ce1689_1x.jpg,4000,100000,p,150000
+Quận 1,Hàm NghiStudio,https://cdn.bitrix24.com/b17992159/landing/e85/e85916ba47afa881a0a192a1be90a60b/z2657595959062_cc227c36b04e2ab90b5caa7e26bd261e_1x.jpg,4000,0,m3,0
+Quận 1,Nguyễn Văn Thủ2 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/fc5/fc5a9c6179dc374c329d1992f0382bd1/z2657502391285_dcfba07fd001159aba28afc47d23b883_1x.jpg,4000,0,m3,0
+Quận 1,Trần Đình Xu1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/9e6/9e61d248e087acbf523f2f8d58805855/z2657496018644_1d4859955471af061733eb74c47a77a2_1x.jpg,4000,0,m3,0
+Quận 7,SonataDuplex,https://cdn.bitrix24.com/b17992159/landing/258/25871c8149ad363aedc1bd292e962fb7/z2657550365164_114168108ad216a0365be1961be50351_1x.jpg,4000,0,m3,0
+Quận 7,Phạm Thái BườngStudio,https://cdn.bitrix24.com/b17992159/landing/335/335796d1cadd674e51ee1d8bf89e2ea3/z2657553150555_7f2f94b450321e6652aaa7e1454edcfa_1x.jpg,3700,200000,p,100000
+Quận 7,Tân Thuận Tây1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/4f7/4f74eff8f2cc7651ab9a7c8319cf0757/z2657558063019_8619e651fa3ef10390622f4508842b99_1x.jpg,3700,150000,p,100000
+Quận 7,Khu Dân cư Nam LongStudio,https://cdn.bitrix24.com/b17992159/landing/5c6/5c6a85751bf6f7b00a6d4b0576286614/z2657563405082_5db80512ad3f3a963618c18b0f02d9ea_1x.jpg,3800,150000,p,100000
+Phú Nhuận,Trần Khắc ChânStudio,https://cdn.bitrix24.com/b17992159/landing/e66/e66335c1d3745a5ae9c022ebfb4839fd/z2657530246757_a1d857d78201145f79bffbb9d92ce255_1x.jpg,4000,0,p,150000
+Bình Thạnh,Nguyễn Cửu Vân1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/204/20443f0cadab5d2e282e23939b5287b9/z2657528880952_774f1167f1c5ce34e0bf70fe4461d24a_1x.jpg,4000,0,p,100000
+Bình Thạnh,Xô Viết Nghệ TĩnhDuplex,https://cdn.bitrix24.com/b17992159/landing/af3/af3e10ecb65ae52ffbe273326e79467f/z2657526194578_b29a864cde1b74584a109815f316a8b9_1x.jpg,4000,150000,p,100
+Bình Thạnh,Ngô Tất TốStudio,https://cdn.bitrix24.com/b17992159/landing/7db/7dbf77290409600fb625da704c531010/z2657524764198_6c0ba4a9b30296eb0d765fa54025aa6d_1x.jpg,3800,150000,p,100000
+Quận 4,Đoàn Như HàiDuplex,https://cdn.bitrix24.com/b17992159/landing/62f/62ff0b50cd54ef9f69b254a94d4bc58f/z2657521350207_e8b0c454b93cacd7634a1116426bc0b0_1x.jpg,4000,0,p,100000
+Quận 3,Nam Kì Khởi Nghĩa1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/3bd/3bdc10ab8e7464483aec252ee7e3e526/z2657517002348_51d9fdbbb4c45b9b9cee7bccfed6bbe7_1x.jpg,4000,0,m3,0
+Quận 2,Nguyễn Tư NghiêmStudio,https://cdn.bitrix24.com/b17992159/landing/faf/faf4edb9e1b612e34fd739f04df841b1/z2657512990825_dda5031289d8542ba71f91dfd074ac39_1x.jpg,4000,150000,m3,15000
+Quận 2,Thảo ĐiềnStudio,https://cdn.bitrix24.com/b17992159/landing/f35/f35ea6076cb4121bfdf7d603d39f0911/z2657508833788_400db00f1b75220109e1a86f93ce1689_1x.jpg,4000,100000,p,150000
+Quận 1,Hàm NghiStudio,https://cdn.bitrix24.com/b17992159/landing/e85/e85916ba47afa881a0a192a1be90a60b/z2657595959062_cc227c36b04e2ab90b5caa7e26bd261e_1x.jpg,4000,0,m3,0
+Quận 1,Nguyễn Văn Thủ2 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/fc5/fc5a9c6179dc374c329d1992f0382bd1/z2657502391285_dcfba07fd001159aba28afc47d23b883_1x.jpg,4000,0,m3,0
+Quận 1,Trần Đình Xu1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/9e6/9e61d248e087acbf523f2f8d58805855/z2657496018644_1d4859955471af061733eb74c47a77a2_1x.jpg,4000,0,m3,0
+Quận 7,SonataDuplex,https://cdn.bitrix24.com/b17992159/landing/258/25871c8149ad363aedc1bd292e962fb7/z2657550365164_114168108ad216a0365be1961be50351_1x.jpg,4000,0,m3,0
+Quận 7,Phạm Thái BườngStudio,https://cdn.bitrix24.com/b17992159/landing/335/335796d1cadd674e51ee1d8bf89e2ea3/z2657553150555_7f2f94b450321e6652aaa7e1454edcfa_1x.jpg,3700,200000,p,100000
+Quận 7,Tân Thuận Tây1 Phòng ngủ,https://cdn.bitrix24.com/b17992159/landing/4f7/4f74eff8f2cc7651ab9a7c8319cf0757/z2657558063019_8619e651fa3ef10390622f4508842b99_1x.jpg,3700,150000,p,100000
+Quận 7,Khu Dân cư Nam LongStudio,https://cdn.bitrix24.com/b17992159/landing/5c6/5c6a85751bf6f7b00a6d4b0576286614/z2657563405082_5db80512ad3f3a963618c18b0f02d9ea_1x.jpg,3800,150000,p,100000
