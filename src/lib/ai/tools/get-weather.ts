@@ -1,6 +1,7 @@
 import {tool} from 'ai';
 import {z} from 'zod';
 
+
 export const getWeather = tool({
   description: 'Get the current weather at a location',
   parameters: z.object({
