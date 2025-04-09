@@ -7,6 +7,7 @@ import {
   gte,
   ilike,
   inArray,
+  lte,
   or,
   sql,
 } from 'drizzle-orm';
@@ -19,6 +20,7 @@ import {
   chat,
   document,
   message,
+  properties,
   suggestion,
   vote,
   type DBMessage,
@@ -228,8 +230,8 @@ export async function deleteDocumentsByIdAfterTimestamp({
       .where(
         and(
           eq(suggestion.documentId, id),
-          gt(suggestion.documentCreatedAt, timestamp),
-        ),
+          gt(suggestion.documentCreatedAt, timestamp)
+        )
       );
 
     return await db
@@ -237,7 +239,7 @@ export async function deleteDocumentsByIdAfterTimestamp({
       .where(and(eq(document.id, id), gt(document.createdAt, timestamp)));
   } catch (error) {
     console.error(
-      'Failed to delete documents by id after timestamp from database',
+      'Failed to delete documents by id after timestamp from database'
     );
     throw error;
   }
@@ -268,7 +270,7 @@ export async function getSuggestionsByDocumentId({
       .where(and(eq(suggestion.documentId, documentId)));
   } catch (error) {
     console.error(
-      'Failed to get suggestions by document version from database',
+      'Failed to get suggestions by document version from database'
     );
     throw error;
   }
@@ -295,7 +297,7 @@ export async function deleteMessagesByChatIdAfterTimestamp({
       .select({ id: message.id })
       .from(message)
       .where(
-        and(eq(message.chatId, chatId), gte(message.createdAt, timestamp)),
+        and(eq(message.chatId, chatId), gte(message.createdAt, timestamp))
       );
 
     const messageIds = messagesToDelete.map((message) => message.id);
@@ -304,18 +306,18 @@ export async function deleteMessagesByChatIdAfterTimestamp({
       await db
         .delete(vote)
         .where(
-          and(eq(vote.chatId, chatId), inArray(vote.messageId, messageIds)),
+          and(eq(vote.chatId, chatId), inArray(vote.messageId, messageIds))
         );
 
       return await db
         .delete(message)
         .where(
-          and(eq(message.chatId, chatId), inArray(message.id, messageIds)),
+          and(eq(message.chatId, chatId), inArray(message.id, messageIds))
         );
     }
   } catch (error) {
     console.error(
-      'Failed to delete messages by id after timestamp from database',
+      'Failed to delete messages by id after timestamp from database'
     );
     throw error;
   }
@@ -367,12 +369,74 @@ export async function searchChatsByUserId({
         eq(chat.userId, userId),
         or(
           ilike(chat.title, sanitizedQuery),
-          sql`${message.parts}::text ILIKE ${sanitizedQuery}`,
-        ),
-      ),
+          sql`${message.parts}::text ILIKE ${sanitizedQuery}`
+        )
+      )
     )
     .groupBy(chat.id, chat.title, chat.createdAt)
     .orderBy(desc(chat.createdAt));
 
   return searchResults;
+}
+
+export async function findMatchedProperties({
+  district,
+  maximum_distance = 3,
+  wifi_payment,
+  maximum_electricity_rate,
+  maximum_wifi_rate,
+}: {
+  district: string;
+  maximum_distance?: number;
+  wifi_payment: number;
+  maximum_electricity_rate: number;
+  maximum_wifi_rate: number;
+}) {
+  try {
+    // First get the target location's coordinates
+    const targetLocation = await getDistrictCoordinates(district);
+
+    // Haversine formula for distance calculation in kilometers
+    const distanceFormula = sql`
+      (6371 * acos(
+        cos(radians(${targetLocation.latitude})) * 
+        cos(radians(${properties.lattitude})) * 
+        cos(radians(${properties.longitude}) - radians(${targetLocation.longitude})) + 
+        sin(radians(${targetLocation.latitude})) * 
+        sin(radians(${properties.lattitude}))
+      )) as distance
+    `;
+
+    return await db
+      .select({
+        id: properties.id,
+        district: properties.district,
+        place: properties.place,
+        img: properties.img,
+        electricity: properties.electricity,
+        wifi: properties.wifi,
+        waterUnit: properties.waterUnit,
+        waterPricePerUnit: properties.waterPricePerUnit,
+        lattitude: properties.lattitude,
+        longitude: properties.longitude,
+        distance: distanceFormula,
+      })
+      .from(properties)
+      .where(
+        and(
+          // Distance filter
+          sql`(${distanceFormula}) <= ${maximum_distance}`,
+          // Electricity rate filter
+          lte(properties.electricity, maximum_electricity_rate),
+          // WiFi rate filter
+          lte(properties.wifi, maximum_wifi_rate),
+          // WiFi payment filter
+          eq(properties.wifi, wifi_payment)
+        )
+      )
+      .orderBy(asc(sql`distance`));
+  } catch (error) {
+    console.error('Failed to find matched properties in database');
+    throw error;
+  }
 }
