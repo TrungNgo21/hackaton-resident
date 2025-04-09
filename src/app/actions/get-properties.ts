@@ -1,7 +1,7 @@
 "use server";
 
-import { db } from "@/db";
-import { properties } from "@/db/schema";
+import { properties } from "@/lib/db/schema";
+import {db} from "@/lib/db/queries";
 
 export async function getProperties() {
   try {

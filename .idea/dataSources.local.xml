@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="WS-243.22562.222">
+    <data-source name="PostgreSQL" uuid="e19bc0f6-2912-4b28-9dc8-b88c9163fed1">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>aNhTuAn?_owner</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>

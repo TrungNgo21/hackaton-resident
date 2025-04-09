@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Property } from "@/db/schema";
+import { Property } from "@/lib/db/schema";
 import { Droplet, Lightbulb, Wifi } from "lucide-react";
 import Image from "next/image";
 

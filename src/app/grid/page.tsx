@@ -1,7 +1,7 @@
 import PropertyList from "@/app/components/properties/property-list";
-import { getProperties } from "./actions/get-properties";
+import { getProperties } from "../actions/get-properties";
 import { Suspense } from "react";
-import Loading from "./loading";
+import Loading from "../loading";
 
 export default async function Home() {
   return (
